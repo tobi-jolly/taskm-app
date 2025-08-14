@@ -1,3 +1,2 @@
-android/** linguist-vendored
-ios/** linguist-vendored
-build/** linguist-vendored
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
