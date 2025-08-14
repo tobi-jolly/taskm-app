@@ -1,7 +1,26 @@
+# ---- Source files ----
 *.dart linguist-language=Dart
-*.cpp linguist-language=C++
-*.cmake linguist-language=CMake
 *.swift linguist-language=Swift
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.cmake linguist-language=CMake
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.js linguist-language=JavaScript
+
+# ---- Ignore generated / plugin files ----
+**/generated/** linguist-vendored
+**/flutter/** linguist-vendored
+**/build/** linguist-vendored
+**/ios/Flutter/** linguist-vendored
+**/android/** linguist-vendored
+**/macos/Flutter/** linguist-vendored
+**/windows/flutter/** linguist-vendored
+**/linux/flutter/** linguist-vendored
+
+# ---- Optional: other files not counted ----
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.lock linguist-vendored
+*.gradle linguist-vendored
+*.properties linguist-vendored
