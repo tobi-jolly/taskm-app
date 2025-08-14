@@ -13,9 +13,13 @@ class Task {
   @HiveField(2)
   bool isCompleted;
 
+  @HiveField(3)
+  String category; // NEW
+
   Task({
     required this.title,
     required this.description,
     this.isCompleted = false,
+    this.category = "General",
   });
 }
