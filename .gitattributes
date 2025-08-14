@@ -1,17 +1,12 @@
-# Force Dart detection
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
 
-# Ignore native platform folders so Dart dominates
-windows/* linguist-detectable=false
-linux/* linguist-detectable=false
-macos/* linguist-detectable=false
-ios/* linguist-detectable=false
-android/* linguist-detectable=false
+# Ignore Flutter's platform-specific auto-generated code
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
 
-# Ignore assets and non-code files
-assets/* linguist-detectable=false
-*.png linguist-detectable=false
-*.jpg linguist-detectable=false
-*.json linguist-detectable=false
-*.lock linguist-detectable=false
+# Ignore build outputs
+build/** linguist-vendored
