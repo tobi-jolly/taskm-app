@@ -1,1 +1,7 @@
 *.dart linguist-language=Dart
+*.cpp linguist-language=C++
+*.cmake linguist-language=CMake
+*.swift linguist-language=Swift
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
