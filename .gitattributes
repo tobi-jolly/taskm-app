@@ -1,12 +1,7 @@
 *.dart linguist-detectable=true
-*.dart linguist-language=Dart
-
-# Ignore Flutter's platform-specific auto-generated code
-android/** linguist-vendored
-ios/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-windows/** linguist-vendored
-
-# Ignore build outputs
-build/** linguist-vendored
+*.cpp linguist-detectable=true
+*.cmake linguist-detectable=true
+*.swift linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
